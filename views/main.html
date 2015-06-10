@@ -1,0 +1,10 @@
+<div class="main-unit">
+	<h1>AngularJS + CopperLicht + CopperCubeJS</h1>
+
+	<p>Loading CopperCube content with AngularJS</p>
+    <canvas id="3darea" width="640" height="480" style="background-color:#000000"> </canvas>
+
+    <cc-loader ccbjs-url="ccbjsUrl" ccbjs-main-url="ccbjsMainUrl"></cc-loader>
+	<button ng-click="changeModel()">change model</button>
+	<input ng-model="ccbjsUrl"></input>
+</div>
